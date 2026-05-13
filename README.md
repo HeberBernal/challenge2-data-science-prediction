@@ -27,8 +27,9 @@ Se implementó un algoritmo de **Random Forest**, enfrentando un dataset desbala
 * **Modelo Base:** Logró una precisión del 83% en clientes leales, pero una detección baja (Recall 0.48) en clientes en riesgo.
 * **Optimización con SMOTE:** Se aplicó sobremuestreo sintético para balancear las clases, logrando **elevar el Recall de la clase Churn de 0.48 a 0.61**.
 
-## 📊 Resultados Finales
-El modelo optimizado permite identificar a **6 de cada 10 clientes** que planean dejar la compañía, proporcionando una herramienta de prevención con un desempeño equilibrado (F1-Score: 0.60).
+📊 Impacto y Conclusión Estratégica
+Con un F1-Score de 0.60, el modelo identifica a 6 de cada 10 clientes en riesgo, permitiendo transformar la retención reactiva en una estrategia proactiva.
+Su implementación optimiza el presupuesto de marketing al dirigir incentivos exclusivamente a perfiles de alto valor con probabilidad de fuga. Esto no solo maximiza el LTV (Life Time Value), sino que reduce drásticamente los costos operativos de recuperación y garantiza un mayor ROI para la compañía.
 
 | Métrica | Modelo Base | Modelo con SMOTE |
 | :--- | :---: | :---: |
